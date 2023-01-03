@@ -1,0 +1,32 @@
+
+.Paginacion{
+    background-color: var(--fondo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Button .on{
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: var(--fondoOscuro);
+    color: var(--letras);
+    cursor: pointer;
+}
+
+.off{
+    display: none;
+}
+
+.on{
+    background-color: var(--fondoOscuro);
+    border: none;
+}
+
+.Numero{
+    background-color: var(--fondoOscuro);
+    color: var(--letras);
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin: 5px 20px;
+}

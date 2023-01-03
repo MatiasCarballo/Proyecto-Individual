@@ -1,0 +1,72 @@
+@font-face {
+  font-family: import;
+  src: url(./Assets/Sacramento-Regular.ttf);
+}
+@font-face {
+  font-family: texto;
+  src: url(./Assets/AntipastoPro_trial.ttf);
+}
+
+:root{
+  --fondo:rgb(163, 154, 100);
+  --fondoOscuro:rgb(117, 114, 97);
+  --letras:rgb(223, 220, 179);
+  --title: import;
+}
+
+*{
+  margin : 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.image{
+  min-height: 100vh;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(https://p4.wallpaperbetter.com/wallpaper/890/253/174/vintage-world-map-map-world-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size:cover ;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

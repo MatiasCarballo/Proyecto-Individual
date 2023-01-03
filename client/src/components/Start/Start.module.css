@@ -1,0 +1,17 @@
+.Start{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button{
+    border: none;
+    background-color: var(--fondoOscuro);
+    color: var(--letras);
+    height: 100px;
+    width: 200px;
+    font-size: 40px;
+    border-radius: 20px;
+    font-family: import;
+}

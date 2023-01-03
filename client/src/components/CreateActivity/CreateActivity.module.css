@@ -1,0 +1,197 @@
+
+.CreateActivity{
+    color: #fff;
+
+}
+
+.Title{
+    padding: 25px;
+}
+
+/* .Form{
+    justify-content: center;
+    align-content: center;
+} */
+
+.NameDifficulty{
+    margin: 20px 200px;
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.BoxName{
+    display: flex;
+    background-color:rgb(167, 162, 135);
+    width: 45%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.Name {
+    width: 90%;
+    height: 55%;
+    border: none;
+    background-color: rgb(167, 162, 135);
+    color: rgb(117, 99, 97);
+}
+
+.errName{
+    width: 90%;
+    height: 55%;
+    background-color: rgb(236, 110, 110);
+    
+}
+
+.BoxDifficulty{
+    display: flex;
+    background-color:rgb(167, 162, 135);
+    width: 45%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; 
+}
+.Difficulty{
+    width: 90%;
+    height: 55%;
+    border: none;
+    background-color: rgb(167, 162, 135);
+    color: rgb(117, 114, 97);
+}
+.errDifficulty{
+    width: 90%;
+    height: 55%;
+    background-color: rgb(236, 110, 110);    
+}
+
+.DurationSeason{
+    margin: 20px 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.BoxDuration{
+    display: flex;
+    background-color:rgb(167, 162, 135);
+    width: 45%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.Duration{
+    width: 90%;
+    height: 55%;
+    border: none;
+    background-color: rgb(167, 162, 135);
+    color: rgb(117, 114, 97);
+}
+.errDuration{
+    width: 90%;
+    height: 55%;
+    background-color: rgb(236, 110, 110);    
+}
+
+.BoxSeason{
+    display: flex;
+    background-color:rgb(167, 162, 135);
+    width: 45%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Season{
+    width: 90%;
+    height: 55%;
+    border: none;
+    background-color: rgb(167, 162, 135);
+    color: rgb(117, 114, 97);
+}
+.errSeason{
+    width: 90%;
+    height: 55%;
+    background-color: rgb(236, 110, 110); 
+}
+
+.BoxImage{ 
+    background-color:rgb(167, 162, 135);
+    margin: 20px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+}
+.Image{
+    width: 90%;
+    height: 60%;
+    border: none;
+    background-color: rgb(167, 162, 135);
+    color: rgb(117, 114, 97);
+}
+.errImage{
+    width: 90%;
+    height: 60%;
+    background-color: rgb(236, 110, 110); 
+}
+
+.BoxCountries{
+    height: 50px;
+    background-color:rgb(167, 162, 135);
+    margin: 20px 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+.Countries{
+    width: 90%;
+    height: 60%;
+    border: none;
+    background-color: rgb(167, 162, 135);
+    color: rgb(117, 114, 97);
+}
+.errCountries{
+    width: 90%;
+    height: 60%;  
+    background-color: rgb(236, 110, 110); 
+}
+
+.Submit{
+    height: 40px;
+    background-color:rgb(61, 86, 105);
+    margin: 20px 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+.Submit input{
+    width: 90%;
+    height: 60%;
+    border: none;
+    background-color: rgb(61, 86, 105);
+    color: rgb(236, 204, 18);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.tagBox{
+    display: contents;
+   background-color: rgb(167, 162, 135);
+   justify-content: center;
+   margin: 0 600px;
+}
+
+.tagName{
+   justify-content: flex-start;
+   
+}
+

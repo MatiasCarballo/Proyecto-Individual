@@ -1,0 +1,64 @@
+
+
+.Fondo{
+    height: 60px;
+    background-color: var(--fondo);
+}
+.Search {
+    margin: 0 15%;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Search img{
+    padding: 0 10px;
+    justify-items: center;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+}
+
+.Search input{
+  width: 85%;
+  height: 25px;
+  border: none;
+  outline: 0
+}
+
+.filters{
+    display: flex;
+    background-color: rgb(163, 154, 100);;
+    align-content: center;
+    justify-content: center;
+}
+.filter{
+    display: flex;
+    background-color: rgb(117, 114, 97);
+    margin: 10px 40px;
+    height: 30px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+
+}
+.filter select{
+    width: 80%;
+    height: 80%;
+    color: rgb(223, 220, 179);
+    background-color: rgb(117, 114, 97);
+    border: none;
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 100px;
+}
+
+

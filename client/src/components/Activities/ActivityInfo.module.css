@@ -1,0 +1,38 @@
+
+.ActivityInfo{
+    color: #fff;
+}
+
+.Title{
+    margin: 25px 0;
+}
+
+.Card{
+    display: flex;
+}
+
+.Info{
+    width: 60%;
+}
+
+.Info h1{
+   margin-bottom: 20px;
+}
+
+.Info h3{
+    
+    margin: 0 10px;
+}
+
+.Flag img{
+    width: 80%;
+}
+
+.Paises{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}

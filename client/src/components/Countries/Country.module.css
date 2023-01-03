@@ -1,0 +1,46 @@
+
+.Country{
+    color: #fff;
+
+}
+
+.Title{
+    margin: 25px 0;
+    font-family: import;
+    font-size: 30px;
+}
+
+.Card{
+    display: flex;
+    
+}
+
+.Info{
+    width: 50%;
+}
+
+.Info h1{
+   margin-bottom: 20px;
+}
+
+.Info h3{
+    margin: 0 10px;
+}
+
+.Flag img{
+    width: 80%;
+}
+
+.TitleActivity{
+    margin-top: 35px;
+}
+
+.activity{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+

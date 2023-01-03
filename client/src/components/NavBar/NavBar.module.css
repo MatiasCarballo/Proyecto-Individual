@@ -1,0 +1,34 @@
+
+.NavBar{
+    background-color: var(--fondo) ;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+
+}
+
+.Logo{
+    text-decoration: none;
+    color: rgb(110, 86, 40);
+    cursor: pointer;
+
+}
+
+.Links{
+    display: flex;
+}
+
+.Link{
+    margin-right: 20px;
+    text-decoration: none;
+    color: var(--letra);
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 0 5px;
+    border: 1px var(--fondoOscuro) double;
+    
+}
+
+
